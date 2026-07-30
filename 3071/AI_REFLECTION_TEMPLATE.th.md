@@ -22,8 +22,8 @@ AI อาจช่วยตรวจ grammar, formatting หรือควา�
 
 | Item | Answer |
 |---|---|
-| OJ problem number/title | 3042 |
-| OJ submission ID, if submitted | 558351 |
+| OJ problem number/title | 3071 |
+| OJ submission ID, if submitted | 573948 |
 | OJ status | Pass |
 
 ---
@@ -61,7 +61,7 @@ Gemini
 | I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes | นำ Primary Role ใน COURSE_AI_INSTRUCTIONS.md ไปใส่ใน Gemini เพื่อที่จะให้ Gemini สอนทีละสเต็ปเพื่อที่จะสามารถเข้าใจโจทย์เป็นอย่างดี |
 | I wrote my own problem understanding before asking AI for help. | Yes | เขียนไว้ใน submission.md |
 | I wrote my own first plan before asking AI for help. | Yes | เขียนไว้ใน submission.md |
-| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes | ฉันใช้ให้เป็นโค้ชในการทำ และเป็นผู้ตรวจสอบยว่าโค้ดสมบูรณ์หรือไม่ |
+| I used AI as a coach, reviewer, debugger, or test-case helper, not as a full-answer generator. | Yes | ใช้ในการตรวจสอบโค้ด และหาจุดบกพร่องของโค้ด |
 
 ถ้าตอบ "No" ในข้อใด ให้อธิบายเหตุผล:
 
@@ -86,7 +86,8 @@ Gemini
 - ฉันถาม AI ให้อธิบายว่าทำไม output ของฉันต่างจาก expected output
 
 My answer:
-ใช้ Ai รีวิวแผนแรกขแงฉัน จากนั้นฉันให้ Ai แนะนำในขั้นตอนการแสดงผลลัพธ์กลับหลัง
+
+ฉันถาม Ai ให้ช่วยหาจุดบกพร่องของโค้ด และตรวจสอบโค้ดว่าสมบูรณ์มั๊ย เป็นไปตาม PEP-8 หรือไม่
 
 ---
 
@@ -105,7 +106,7 @@ My answer:
 
 My answer:
 
-ช่วยให้ฉันสังเกตุการที่สะแสดงผลลัพธ์แบบถอยหลังยังไง
+Ai ช่วยฉันตรวจสอบโค้ด และได้ทักท้วงให้ฉันสังเกตุการแสดงคำตอบของโจทย์ว่า จริงๆแล้วโจทย์ต้องการอะไร บอกว่ามีสมาชิกอะไรบ้างที่หาร d แล้วได้เศษ r หรือโจทย์ต้องการรู้ว่าหาร d แล้วได้เศษ r มีกี่จำนวน
 
 ---
 
@@ -124,7 +125,8 @@ My answer:
 
 My answer:
 
-หลังจากฉันได้คำแนะนำ หลังจากนนั้นก็ได้แก้โค้ดด้วยตัวเอง แต่อาจจะมีติดขัดบ้าง แต่ก็ได้ Ai ชี้ทางให้ แต่ไม่ได้บอกวิธีหรือแก้ไขให้ เพียงแค่ชี้ถ้าว่าควรมองหรือคิดแบบไหนในการแก้ไขปัญหา
+ฉันตรวจสอบว่าแท้จริงแล้วโจทย์ต้องการอะไรจริงๆ จากนั้นฉันก็ลงมือแก้โค้ดด้วยตัวเอง
+
 ---
 
 ## 7. ฉันได้เรียนรู้อะไร
@@ -137,7 +139,7 @@ My answer:
 
 My answer:
 
-ฉันได้เรียนรู้ว่าการใช้ for loop เมื่อเราแสดงผลลัพธ์อกกมามันจะออกมาแบบขึ้นบรรทัดใหม่ แต่หากเราใช้ end=" " จะเป็นการที่เมื่อจบผลลัพธ์นึงแล้ว จะทำการเว้นวรรคไปเรื่อยๆจนถึงตัวสุดท้าย
+ฉันได้เรียนรู้เรื่องของการอ่านโจทย์ให้ดี ทีละบรรทัดทีละตัวอักษร
 
 ---
 
