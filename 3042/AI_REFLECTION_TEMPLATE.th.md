@@ -57,7 +57,7 @@ Gemini
 
 | Statement | Yes / No / Not Applicable | Short note |
 |---|---|---|
-| I read the relevant workflow before using AI. | Yes | workflows/STUDENT_WORKFLOW_WEB_CHAT.md |
+| I read the relevant workflow before using AI. | Yes | workflows/STUDENT_WORKFLOW_WEB_CHAT.md, instructions/COURSE_AI_INSTRUCTIONS.md |
 | I used `instructions/COURSE_AI_INSTRUCTIONS.md`, `instructions/AGENTS.md`, or manually followed the course AI instructions if the tool did not support custom instructions. | Yes | นำ main role ใน AGENT.md ไปใส่ใน Gemini เพื่อนที่จะให้ Gemini สอนทีละสเต็ปเพื่อที่จะสามารถเข้าใจโจทย์เป็นอย่างดี |
 | I wrote my own problem understanding before asking AI for help. | Yes | เขียนไว้ใน submission.md |
 | I wrote my own first plan before asking AI for help. | Yes | เขียนไว้ใน submission.md |
